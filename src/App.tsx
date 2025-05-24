@@ -1,4 +1,4 @@
-=import { Outlet } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
 import { useState } from 'react';
 import LoginPage from './pages/LoginPage';
 import { GoogleOAuthProvider } from '@react-oauth/google';
