@@ -1,8 +1,9 @@
+// main.tsx
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import App from './App';
 import Home from './pages/Home';
-import Success from './pages/ Success';
+import Success from './pages/ Success'; 
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <BrowserRouter>
